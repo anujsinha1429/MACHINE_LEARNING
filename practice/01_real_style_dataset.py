@@ -25,4 +25,3 @@ x=df[["study_hours","sleep"]]
 y=df["marks"]
 print(x)
 print(y)
-
