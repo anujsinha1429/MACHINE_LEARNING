@@ -22,3 +22,7 @@ print(df)
 # duplicate remove
 df=df.drop_duplicates()
 print(df)
+
+# data type conversion
+df["age"]=df["age"].astype(int) # this will convert the age column to
+print(df.dtypes)
