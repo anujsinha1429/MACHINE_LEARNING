@@ -4,6 +4,7 @@ import pandas as pd
 df=pd.read_csv("data.csv")
 print(df.describe())
 
+
 # output
 #              AGE
 # count   3.000000

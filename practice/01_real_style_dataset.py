@@ -5,6 +5,7 @@ data = {
     "sleep":[7,6,8,5,7],
     "marks":[65,80,50,90,70]
 }
+# to print the data in tabular format we can use pandas dataframe.
 df = pd.DataFrame(data)
 print(df)
 
