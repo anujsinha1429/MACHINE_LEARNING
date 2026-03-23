@@ -19,5 +19,5 @@ model.fit(X_train,y_train)
 predictions=model.predict(X_test)
 print("Predictions:",predictions)
 
-new_data=[[5,6]]
+new_data=[[7,5]]
 print("Predicted marks:",model.predict(new_data))
